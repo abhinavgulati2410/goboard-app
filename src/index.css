@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.nav-link {
+  color: white !important;
+}
+
+#carousel {
+  max-height: 500px;
+}
+
+.carousalImg {
+  object-fit: contain !important;
+}
+
+.hv:hover {
+  color: rgb(10, 136, 10) !important;
+  background-color: white !important;
 }
